@@ -231,9 +231,9 @@ public class DefaultJeepOrderDao implements JeepOrderDao {
         jdbcTemplate.query(sql, params, new ColorResultSetExtractor()));
   }
 
-  /**
-   * 
-   */
+/**
+ * 
+ */
   @Override
   public Optional<Engine> fetchEngine(String engineId) {
     // @formatter:off
